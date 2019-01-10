@@ -1,10 +1,14 @@
 <template>
-    <div>zhanglulu</div>
+  <home-header></home-header>
 </template>
 
 <script>
+import HomeHeader from '@/pages/components/HomeHeader'
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    HomeHeader
+  }
 }
 </script>
 
